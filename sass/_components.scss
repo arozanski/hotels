@@ -162,3 +162,12 @@
   color: var(--grey-light-4);
   padding: 2.5rem;
 }
+
+.gallery {
+  display: flex;
+
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
